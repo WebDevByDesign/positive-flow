@@ -22,10 +22,8 @@ body {
 }
 .header nav ul {
     list-style-type: none;
-    
 }
 .header nav ul li {
-    
     margin-left:10px;
     display: inline;
 }
@@ -33,23 +31,22 @@ body {
 #about {
     color: whitesmoke;
     text-align: left;
-    
     }
 .about {
-        text-align: center;
-        padding:10px;
-        
+    text-align: center;
+    padding:10px;
+    
     }
 .about img {
     border-radius: 30px;
     display: block;
     margin-left:180px;
-     margin-top: 0 auto;
+    margin-top: 0 auto;
     }
 .about p {
-        text-align: left;
-        padding:30px;
-        margin:20px;
+    text-align: left;
+    padding:30px;
+    margin:20px;
     }
 
 #work {
