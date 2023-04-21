@@ -11,8 +11,8 @@ h1 {
     padding: 25px;
     Border: dotted; 
 }
-img {
-    width: 150px;
+/*img {
+    width: 200px;
     padding: 20px;
     margin: 20px;
     border-radius: 50px 50px 50px 50px;
@@ -20,6 +20,8 @@ img {
     text-align: center;
 
 }
+*/
+
 body {
     background: linear-gradient(#54a1b9, #e671e8);
     
@@ -37,8 +39,6 @@ footer {
     padding-top: 5px;
     margin-right:10px;
     float: right;
-    
-
 }
 .header nav ul {
     list-style-type: none;
@@ -48,38 +48,76 @@ footer {
     
     margin-left:10px;
     display: inline;
-
 }
 
 #about {
     color: whitesmoke;
-    text-align: center;
-    display: flex;
-    justify-content: flex-end;
+    text-align: left;
     
-}
+    }
+    .about {
+        text-align: center;
+        padding:10px;
+        
+    }
+.about img {
+    border-radius: 30px;
+    display: block;
+    margin-left:180px;
+    
+     margin-top: 0 auto;
+    }
+.about p {
+        text-align: left;
+        padding:30px;
+        margin:20px;
+    }
+
 #work {
     color:whitesmoke;
     text-align: center;
-    display: block;
-    
-    
+    display: block; 
 }
+.work {
+    display: inline;
+    padding: 30px;
+    margin-left: 40px;
+}
+
 #contact {
     color:whitesmoke;
     text-align:left;
+    display:flex;
+}
+.contact {
+    text-decoration: wavy;
+}
+.contact ul li {
+    display: inline-block;
+    padding: 25px;
+    text-align: left;
     
-
 }
 
+.shecodes img{
+    border-radius: 20px;
+}
+.canthaveit img {
+    border-radius: 20px;
+}
+.project3 img {
+    border-radius: 20px;
+}
 
 .quotes {
-    margin-left: 5px;
-    padding: 60px;
+    float:left;
+    padding: 40px;
+    margin-left:15px;
+    
     border: auto;
-    width: 30px;
+    width: 100px;
     height: 15px;
-    float: left;
+    
    
 }
 
