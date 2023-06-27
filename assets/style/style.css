@@ -47,17 +47,21 @@ body {
     }
 .about p {
     text-align: left;
-    padding:30px;
-    margin:20px;
+    padding:20px;
+    margin:30px;
     }
-
-#work {
+.first-p {
+    text-align:center;
+    padding-left: 20px;
+}
+#projects {
     color:whitesmoke;
     text-align: center;
-    display: block; 
+    
 }
-.work {
-    display: inline;
+.projects {
+    text-align: center;
+    
     padding: 30px;
     margin-left: 40px;
 }
